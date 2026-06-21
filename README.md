@@ -35,7 +35,7 @@ Coordeno a plataforma de dados da ImpulsoGov, construindo e evoluindo arquitetur
 **Fora do trabalho**
 
 - Professor de tecnologia por vocação · manda jobs!
-- Explorando hardware vintage (Game Boy Advance)
+- Explorando hardware vintage (Game Boy Advance) e impressão 3D
 - Anotando o que aprendo em [HEA](https://github.com/Alexsandr0x/hea)
 
 ---
