@@ -34,7 +34,7 @@ Coordeno a plataforma de dados da ImpulsoGov, construindo e evoluindo arquitetur
 
 **Fora do trabalho**
 
-- Professor de tecnologia por vocação · convites são bem-vindos
+- Professor de tecnologia por vocação · manda jobs!
 - Construindo jogos e ferramentas em Rust por hobby
 - Explorando hardware vintage (câmeras de Game Boy)
 - Anotando o que aprendo em [HEA](https://github.com/Alexsandr0x/hea)
