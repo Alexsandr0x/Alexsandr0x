@@ -14,6 +14,24 @@ Coordeno a plataforma de dados da ImpulsoGov, construindo e evoluindo arquitetur
 
 ---
 
+**Atualmente estudando**
+
+- Liderança de Alta Performance · [@tech-leads-club](https://github.com/tech-leads-club)
+- Google Cloud Professional Architect (preparação para certificação)
+- Arquitetura de Software
+
+**No radar**
+
+- Retomar estudos de LLM
+- Aprofundar em Rust
+- Reler Python Fluente — nova edição · [@ramalho](https://github.com/ramalho)
+
+**Atualmente lendo**
+
+[Projetando Sistemas de Machine Learning](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/) · Chip Huyen
+
+---
+
 **Fora do trabalho**
 
 - Tutor de tecnologia na Sirius Education
@@ -29,4 +47,4 @@ Coordeno a plataforma de dados da ImpulsoGov, construindo e evoluindo arquitetur
 
 [alexsandro.dev](http://alexsandro.dev) · [LinkedIn](https://www.linkedin.com/in/alexsandr0x/)
 
-<!-- Data Engineering · Data Warehouse · ETL · ELT · Data Pipelines · Cloud · Python · Rust · SQL · BigQuery · GCP · Apache Airflow · dbt · Tech Lead · São Paulo · Brasil -->
+<!-- Data Engineering · Data Warehouse · ETL · ELT · Data Pipelines · Cloud · Python · Rust · SQL · BigQuery · GCP · Apache Airflow · dbt · Tech Lead · Google Cloud Architect · Machine Learning · LLM · Arquitetura de Software · Liderança Técnica · São Paulo · Brasil -->
