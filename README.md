@@ -34,7 +34,7 @@ Coordeno a plataforma de dados da ImpulsoGov, construindo e evoluindo arquitetur
 
 **Fora do trabalho**
 
-- Tutor de tecnologia na Sirius Education
+- Professor de tecnologia por vocação · convites são bem-vindos
 - Construindo jogos e ferramentas em Rust por hobby
 - Explorando hardware vintage (câmeras de Game Boy)
 - Anotando o que aprendo em [HEA](https://github.com/Alexsandr0x/hea)
