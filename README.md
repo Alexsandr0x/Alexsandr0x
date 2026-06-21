@@ -46,4 +46,4 @@ Coordeno a plataforma de dados da ImpulsoGov, construindo e evoluindo arquitetur
 
 [alexsandro.dev](http://alexsandro.dev) · [LinkedIn](https://www.linkedin.com/in/alexsandr0x/)
 
-<!-- Data Engineering · Data Warehouse · ETL · ELT · Data Pipelines · Cloud · Python · Rust · SQL · BigQuery · GCP · Apache Airflow · dbt · Tech Lead · Google Cloud Architect · Machine Learning · LLM · Arquitetura de Software · Liderança Técnica · São Paulo · Brasil -->
+<!-- Data Engineering · Data Warehouse · ETL · ELT · Data Pipelines · Cloud · Terraform · Python · Rust · SQL · BigQuery · GCP · Apache Airflow · dbt · Tech Lead · Google Cloud Architect · Machine Learning · LLM · Arquitetura de Software · Liderança Técnica · São Paulo · Brasil -->
