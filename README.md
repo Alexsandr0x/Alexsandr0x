@@ -10,7 +10,7 @@ Especialista em dados de carreira, resolvedor de problemas por vocação, eterno
 
 Coordeno a plataforma de dados da ImpulsoGov, construindo e evoluindo arquitetura de Data Warehouse, pipelines de ingestão e transformação, e infraestrutura Cloud para dados de saúde pública.
 
-`Python` `SQL` `Rust` `Java` `C++` `Airflow` `BigQuery` `GCP`
+`Python` `SQL` `Rust` `Java` `C++` `Airflow` `BigQuery` `GCP` `AWS` `3D Printing` `Robotics`
 
 ---
 
