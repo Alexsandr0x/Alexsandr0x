@@ -1,49 +1,55 @@
-### Alexsandro Francisco
+# Alexsandro Francisco
 
-**Tech Lead & Coordenador de Dados** · [@ImpulsoGov](https://github.com/ImpulsoGov)
+[![Tech Lead de Dados](https://img.shields.io/badge/-Tech%20Lead%20de%20Dados-ffb000?style=flat-square)](#)
+[![ImpulsoGov](https://img.shields.io/badge/-ImpulsoGov-ffb000?style=flat-square)](https://github.com/ImpulsoGov)
+[![São Paulo](https://img.shields.io/badge/-S%C3%A3o%20Paulo-121a1f?style=flat-square)](#)
+[![SYS.ONLINE](https://img.shields.io/badge/-SYS.ONLINE-46d9e8?style=flat-square)](https://alexsandro.dev)
 
-Especialista em dados de carreira, resolvedor de problemas por vocação, eterno aprendiz e professor — e às vezes codo coisas por diversão.
+> Tech Lead de Dados. Professor por vocação.
+
+```
+alex@dev:~$ whoami
+Alexsandro — coordeno a plataforma de dados da ImpulsoGov, do Data Warehouse às pipelines na nuvem.
+
+alex@dev:~$ cat ~/.stack
+python · sql · rust · airflow · bigquery · dbt · terraform · gcp · aws
+```
+
+## NO TRABALHO
+
+Coordeno a plataforma de dados da ImpulsoGov: arquitetura de Data Warehouse, pipelines de ingestão e transformação e infraestrutura Cloud para dados de saúde pública.
+
+## PALESTRAS
+
+- 2026-10-19 · [Dados que salvam vidas: como a ImpulsoGov escalou o cuidado no SUS com o Google Cloud](https://alexsandro.dev/lessons/feira-empreendedor-sebrae-sp-2026/) — Feira do Empreendedor, Sebrae SP
+- 2026-09-23 · [5 Erros que Cometi ao Subir Apache Airflow em Produção](https://alexsandro.dev/lessons/tdc-sp-2026-airflow-erros/) — TDC São Paulo
+- 2025-10-15 · [Construindo o Pipeline de Dados da ImpulsoGov](https://alexsandro.dev/lessons/semana-eng-usp-saocarlos-2025/) — Semana de Engenharia, USP São Carlos
+- 2023 · [Introdução ao IEEE VSSS com FIRASim](https://alexsandro.dev/lessons/intro-ieee-vsss-firasim/) — IEEE
+
+Mais em [alexsandro.dev/lessons](https://alexsandro.dev/lessons/).
+
+## AGORA
+
+- **Estudando** — Liderança de Alta Performance, Google Cloud Professional Architect, Arquitetura de Software
+- **Radar** — LLM, Rust, Python Fluente (nova edição)
+- **Lendo** — [Designing Machine Learning Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/), Chip Huyen
+
+## PROJETOS
+
+- [flappy-bem-te-vi](https://github.com/Alexsandr0x/flappy-bem-te-vi) — clone de Flappy Bird para Game Boy Advance em Rust (`agb`)
+- [gbacam](https://github.com/Alexsandr0x/gbacam) — visualizar dados das câmeras da Game Boy Pocket Camera via GBFlash
+- [blog](https://github.com/Alexsandr0x/blog) — código-fonte de alexsandro.dev (Hugo)
+
+## HEA — HOJE EU APRENDI
+
+Anotações curtas do que aprendo no dia a dia em dados, sistemas e programação. [repo](https://github.com/Alexsandr0x/hea) · [site](https://alexsandro.dev/hea/)
+
+## ONDE ME ACHAR
+
+[alexsandro.dev](https://alexsandro.dev) · [LinkedIn](https://www.linkedin.com/in/alexsandr0x/) · [GitHub](https://github.com/Alexsandr0x)
 
 ---
 
-**No trabalho**
+[![Alexsandro — perfil GitHub](https://storage.googleapis.com/alexsandro-cdn/scorecard.svg)](https://github.com/Alexsandr0x)
 
-Coordeno a plataforma de dados da ImpulsoGov, construindo e evoluindo arquitetura de Data Warehouse, pipelines de ingestão e transformação, e infraestrutura Cloud para dados de saúde pública.
-
-`Python` `SQL` `Rust` `Java` `C++` `Airflow` `BigQuery` `GCP` `AWS` `3D Printing` `Robotics`
-
----
-
-**Atualmente estudando**
-
-- Liderança de Alta Performance · [@tech-leads-club](https://github.com/tech-leads-club)
-- Google Cloud Professional Architect (preparação para certificação)
-- Arquitetura de Software
-
-**No radar**
-
-- Retomar estudos de LLM
-- Aprofundar em Rust
-- Reler Python Fluente — nova edição · [@ramalho](https://github.com/ramalho)
-
-**Atualmente lendo**
-
-[Projetando Sistemas de Machine Learning](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/) · Chip Huyen
-
----
-
-**Fora do trabalho**
-
-- Professor de tecnologia por vocação · manda jobs!
-- Explorando hardware vintage (Game Boy Advance) e impressão 3D
-- Anotando o que aprendo em [HEA](https://github.com/Alexsandr0x/hea)
-
----
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Alexsandr0x&show_icons=true&hide_title=true&count_private=true&hide_border=true&theme=default)
-
----
-
-[alexsandro.dev](http://alexsandro.dev) · [LinkedIn](https://www.linkedin.com/in/alexsandr0x/)
-
-<!-- Data Engineering · Data Warehouse · ETL · ELT · Data Pipelines · Cloud · Terraform · Python · Rust · SQL · BigQuery · GCP · Apache Airflow · dbt · Tech Lead · Google Cloud Architect · Machine Learning · LLM · Arquitetura de Software · Liderança Técnica · São Paulo · Brasil -->
+<!-- Data Engineering · Data Warehouse · ETL · ELT · Data Pipelines · Cloud · Terraform · Python · Rust · SQL · BigQuery · GCP · Apache Airflow · dbt · Tech Lead · Google Cloud Architect · Machine Learning · LLM · Arquitetura de Software · Liderança Técnica · Palestrante · São Paulo · Brasil -->
