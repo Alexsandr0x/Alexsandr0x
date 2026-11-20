@@ -128,14 +128,11 @@ def collect():
             contrib = 0
 
     events = _paginate(f"/users/{USER}/events", pages=3)
-    print(f"[dbg] eventos publicos: {len(events)}", file=sys.stderr)
     if TOKEN:
         try:
-            priv = _paginate(f"/users/{USER}/events/private", pages=3)
-            events += priv
-            print(f"[dbg] eventos privados: {len(priv)}", file=sys.stderr)
-        except Exception as exc:
-            print(f"[dbg] events/private falhou: {exc}", file=sys.stderr)
+            events += _paginate(f"/users/{USER}/events/private", pages=3)
+        except Exception:
+            pass
 
     seen = set()
     cutoff = _dt.datetime.now(_dt.timezone.utc) - _dt.timedelta(days=30)
@@ -159,8 +156,7 @@ def collect():
     for repo, weight in pushes.items():
         try:
             sizes = _get(f"{API}/repos/{repo}/languages")
-        except Exception as exc:
-            print(f"[dbg] linguagens {repo} falhou: {exc}", file=sys.stderr)
+        except Exception:
             continue
         total = sum(sizes.values())
         if not total:
@@ -170,9 +166,6 @@ def collect():
             if key is None:
                 continue
             lang_weight[key] = lang_weight.get(key, 0.0) + (size / total) * weight
-
-    print(f"[dbg] pushes: {pushes}", file=sys.stderr)
-    print(f"[dbg] langs: {lang_weight}", file=sys.stderr)
 
     return {
         "repos": user["public_repos"],
