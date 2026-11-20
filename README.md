@@ -25,12 +25,6 @@ Coordeno a plataforma de dados da ImpulsoGov: arquitetura de Data Warehouse, pip
 - **Radar** — LLM, Rust, Python Fluente (nova edição)
 - **Lendo** — [Designing Machine Learning Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/), Chip Huyen
 
-## PROJETOS
-
-- [flappy-bem-te-vi](https://github.com/Alexsandr0x/flappy-bem-te-vi) — clone de Flappy Bird para Game Boy Advance em Rust (`agb`)
-- [gbacam](https://github.com/Alexsandr0x/gbacam) — visualizar dados das câmeras da Game Boy Pocket Camera via GBFlash
-- [blog](https://github.com/Alexsandr0x/blog) — código-fonte de alexsandro.dev (Hugo)
-
 ## HEA — HOJE EU APRENDI
 
 Anotações curtas do que aprendo no dia a dia em dados, sistemas e programação. [repo](https://github.com/Alexsandr0x/hea) · [site](https://alexsandro.dev/hea/)
