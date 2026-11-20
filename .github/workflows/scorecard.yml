@@ -18,8 +18,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Gerar scorecard
-        run: python3 scripts/scorecard.py > scorecard.svg
+      - name: Gerar scorecards
+        run: python3 scripts/scorecard.py
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
 
@@ -34,4 +34,5 @@ jobs:
       - name: Subir para o GCS
         run: |
           gsutil cp -a public-read scorecard.svg gs://alexsandro-cdn/scorecard.svg
-          gsutil setmeta -h "Cache-Control:public,max-age=3600" gs://alexsandro-cdn/scorecard.svg
+          gsutil cp -a public-read scorecard-side.svg gs://alexsandro-cdn/scorecard-side.svg
+          gsutil setmeta -h "Cache-Control:public,max-age=3600" gs://alexsandro-cdn/scorecard.svg gs://alexsandro-cdn/scorecard-side.svg

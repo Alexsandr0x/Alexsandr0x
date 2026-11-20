@@ -275,9 +275,73 @@ def render(data):
     return svg
 
 
+def render_side(data):
+    top = sorted(data["langs"].items(), key=lambda kv: -kv[1])[:5]
+    total = sum(v for _, v in top) or 1.0
+    maxv = top[0][1] if top else 1.0
+
+    stats = [
+        (data["repos"], "REPOS"),
+        (data["stars"], "STARS"),
+        (data["followers"], "FOLLOWERS"),
+        (data["contrib"], "CONTRIBS"),
+    ]
+    cells = []
+    xs = [0, 120]
+    ys = [58, 116]
+    for i, (val, label) in enumerate(stats):
+        cx = xs[i % 2]
+        cy = ys[i // 2]
+        cells.append(
+            f'    <text x="{cx}" y="{cy}" font-family="JetBrains Mono, ui-monospace, Menlo, Consolas, monospace" font-size="27" font-weight="700" fill="#ffb000">{val}</text>\n'
+            f'    <text x="{cx}" y="{cy + 16}" font-size="8.5" letter-spacing="1.5" font-weight="600" fill="#8a979c">{label}</text>\n'
+        )
+
+    rows = []
+    row_ys = [194, 216, 238, 260, 282]
+    for i, y in enumerate(row_ys):
+        if i < len(top):
+            name, val = top[i]
+            color = COLORS.get(name, FALLBACK_COLOR)
+            pct = round(val / total * 100)
+            barw = max(2, round(val / maxv * 96)) if val > 0 else 0
+            rows.append(
+                f'    <rect x="0" y="{y - 5}" width="5" height="5" fill="{color}"/>\n'
+                f'    <text x="12" y="{y}" font-size="11" fill="#ece6d8">{name[:12]}</text>\n'
+                f'    <rect x="100" y="{y - 5}" width="96" height="5" fill="#26343c"/>\n'
+                f'    <rect x="100" y="{y - 5}" width="{barw}" height="5" fill="{color}"/>\n'
+                f'    <text x="232" y="{y}" text-anchor="end" font-size="9" fill="#8a979c" font-family="JetBrains Mono, ui-monospace, Menlo, Consolas, monospace">{pct}%</text>\n'
+            )
+        else:
+            rows.append("")
+
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="232" height="300" viewBox="0 0 232 300" font-family="Chakra Petch, Rajdhani, 'Segoe UI', system-ui, sans-serif" role="img" aria-label="Alexsandro — GitHub">
+  <text x="0" y="16" font-size="9" letter-spacing="1.5" font-weight="600" fill="#8a979c">SYS.ONLINE</text>
+  <g fill="#46d9e8" opacity="0.9">
+    <rect x="200" y="12" width="2" height="4"/>
+    <rect x="205" y="10" width="2" height="6"/>
+    <rect x="210" y="11" width="2" height="5"/>
+    <rect x="215" y="9" width="2" height="7"/>
+  </g>
+
+{''.join(cells)}
+  <line x1="0" y1="164" x2="232" y2="164" stroke="#26343c" stroke-width="1"/>
+
+  <text x="0" y="182" font-size="9" letter-spacing="1.5" font-weight="600" fill="#8a979c">LINGUAGENS · 30D</text>
+
+  <g font-size="11">
+{''.join(rows)}  </g>
+</svg>
+"""
+    return svg
+
+
 def main():
     data = collect()
-    sys.stdout.write(render(data))
+    with open("scorecard.svg", "w", encoding="utf-8") as f:
+        f.write(render(data))
+    with open("scorecard-side.svg", "w", encoding="utf-8") as f:
+        f.write(render_side(data))
 
 
 if __name__ == "__main__":
