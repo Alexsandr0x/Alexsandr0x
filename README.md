@@ -5,7 +5,7 @@
 [![São Paulo](https://img.shields.io/badge/-S%C3%A3o%20Paulo-121a1f?style=flat-square)](#)
 [![SYS.ONLINE](https://img.shields.io/badge/-SYS.ONLINE-46d9e8?style=flat-square)](https://alexsandro.dev)
 
-> Tech Lead de Dados. Professor por vocação.
+> Tech Lead, Engenheiro de Dados e, por fim, professor por vocação.
 
 ```
 alex@dev:~$ whoami
@@ -19,18 +19,9 @@ python · sql · rust · airflow · bigquery · dbt · terraform · gcp · aws
 
 Coordeno a plataforma de dados da ImpulsoGov: arquitetura de Data Warehouse, pipelines de ingestão e transformação e infraestrutura Cloud para dados de saúde pública.
 
-## PALESTRAS
-
-- 2026-10-19 · [Dados que salvam vidas: como a ImpulsoGov escalou o cuidado no SUS com o Google Cloud](https://alexsandro.dev/lessons/feira-empreendedor-sebrae-sp-2026/) — Feira do Empreendedor, Sebrae SP
-- 2026-09-23 · [5 Erros que Cometi ao Subir Apache Airflow em Produção](https://alexsandro.dev/lessons/tdc-sp-2026-airflow-erros/) — TDC São Paulo
-- 2025-10-15 · [Construindo o Pipeline de Dados da ImpulsoGov](https://alexsandro.dev/lessons/semana-eng-usp-saocarlos-2025/) — Semana de Engenharia, USP São Carlos
-- 2023 · [Introdução ao IEEE VSSS com FIRASim](https://alexsandro.dev/lessons/intro-ieee-vsss-firasim/) — IEEE
-
-Mais em [alexsandro.dev/lessons](https://alexsandro.dev/lessons/).
-
 ## AGORA
 
-- **Estudando** — Liderança de Alta Performance, Google Cloud Professional Architect, Arquitetura de Software
+- **Estudando** — Fundamentos de Arquitetura de Software, Google Cloud Professional Architect
 - **Radar** — LLM, Rust, Python Fluente (nova edição)
 - **Lendo** — [Designing Machine Learning Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/), Chip Huyen
 
