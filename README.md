@@ -5,7 +5,7 @@
 [![São Paulo](https://img.shields.io/badge/-S%C3%A3o%20Paulo-121a1f?style=flat-square)](#)
 [![SYS.ONLINE](https://img.shields.io/badge/-SYS.ONLINE-46d9e8?style=flat-square)](https://alexsandro.dev)
 
-> Tech Lead, Engenheiro de Dados e, por fim, professor por vocação.
+> Tech Lead, Engenheiro de Dados e professor por vocação.
 
 ```
 alex@dev:~$ whoami
