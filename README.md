@@ -50,6 +50,6 @@ Anotações curtas do que aprendo no dia a dia em dados, sistemas e programaçã
 
 ---
 
-[![Alexsandro — perfil GitHub](https://storage.googleapis.com/alexsandro-cdn/scorecard.svg)](https://github.com/Alexsandr0x)
+<a href="https://github.com/Alexsandr0x"><img src="https://storage.googleapis.com/alexsandro-cdn/scorecard.svg" alt="Alexsandro — perfil GitHub" width="100%"></a>
 
 <!-- Data Engineering · Data Warehouse · ETL · ELT · Data Pipelines · Cloud · Terraform · Python · Rust · SQL · BigQuery · GCP · Apache Airflow · dbt · Tech Lead · Google Cloud Architect · Machine Learning · LLM · Arquitetura de Software · Liderança Técnica · Palestrante · São Paulo · Brasil -->
